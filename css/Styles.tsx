@@ -43,5 +43,63 @@ export const estilo = StyleSheet.create({
         width:30,
         height:30,
         resizeMode:'contain',
+    },
+    stories:{
+
+    },
+    titulostories:{
+        color:'#989cac',
+        fontSize:30,
+        margin:20
+    },
+    scrollstories:{
+
+    },
+    imgstories:{
+        width:200,
+        height:300,
+        resizeMode:'contain',
+        borderRadius:40,
+        margin:5
+    },
+    blackbox:{
+        backgroundColor:"#090909",
+        color:'#989cac',
+        fontSize:15,
+        padding:10,
+        width:50,
+        borderRadius:10,
+        position:"absolute",
+        zIndex:1000,
+        top:20,
+        left:20,
+        textAlign:"center"
+    },
+    redbox:{
+        backgroundColor:"#600",
+        color:'#989cac',
+        fontSize:15,
+        padding:10,
+        width:100,
+        borderRadius:10,
+        position:"absolute",
+        zIndex:1000,
+        top:20,
+        left:20,
+        textAlign:"center"
+    },
+    txticon:{
+        flexDirection:"row",
+        alignItems:"center"
+    },
+    txt:{
+        color:"#989cac",
+        fontSize:20,
+        padding:10
+    },
+    icon:{
+        width:18,
+        height:18,
+        resizeMode:'contain'
     }
 })
