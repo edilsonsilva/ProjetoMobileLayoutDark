@@ -7,6 +7,8 @@ export default function App() {
   return (
     <View style={estilo.container}>
 
+
+      {/* Início do header */}
       <View style={estilo.header}>
        
         <View style={estilo.perfil}>
@@ -23,9 +25,15 @@ export default function App() {
         </View>
 
       </View>
+      {/* Fim do header ################################## */}
 
-
-      <StatusBar style="auto" />
+      {/* Inicio do Stores ============================================== */}
+      <View style={estilo.stories}>
+        <Text style={estilo.titulostories}>
+          Stories
+        </Text>
+      </View>
+      {/* Fim do Stores ################################## */}
     </View>
   );
 }

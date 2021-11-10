@@ -7,7 +7,7 @@ export const estilo = StyleSheet.create({
     },
     header:{
         flexDirection:'row',
-        paddingTop:30,
+        paddingTop:60,
         paddingLeft:20,
         paddingRight:20,
         paddingBottom:30,
@@ -28,7 +28,7 @@ export const estilo = StyleSheet.create({
     nome:{
         color:'#989cac',
         fontWeight:'bold',
-        fontSize:20,
+        fontSize:15,
         padding:10,
     },
     descricao:{
